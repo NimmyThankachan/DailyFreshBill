@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.training.model.Bill;
 
 @Repository
-public interface BillRepository extends JpaRepository<Bill, Integer> {
+public interface BillItemRepository extends JpaRepository<Bill, Integer> {
 
 }
